@@ -4,7 +4,7 @@ public class caca {
 	System.out.println(" " + y);
 	float z = (1 / 3);
 	System.out.println(" " + z);
-	float a = 1 / (3 + a);
+	float a = 1 / (3 + 2);
 	System.out.println(" " + a);
 	}
 }
