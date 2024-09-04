@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hola {
+public class dosVariablesEjUno {
     public static void main(String[] args) {
         System.out.println("   ---------------");
         System.out.println("  | 1     2     3 |");
