@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nombreEjTres {
+public class ejTresNombre {
     public static void main(String[] args) {
         String nombre = "Caca";
         System.out.println("Bienvenido " + nombre);
