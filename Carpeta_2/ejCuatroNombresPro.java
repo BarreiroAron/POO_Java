@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nombresProEjCuatro {
+public class ejCuatroNombresPro {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Te pedimos el nombre porfa :v ");
