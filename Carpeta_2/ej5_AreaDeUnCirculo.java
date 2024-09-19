@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ejCincoAreaDeUnCirculo {
+public class ej5_AreaDeUnCirculo {
  
     public static void main(String[] args) {
  
