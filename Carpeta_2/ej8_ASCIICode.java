@@ -1,7 +1,7 @@
 
 import javax.swing.JOptionPane;
 
-public class ejOchoASCIICode {
+public class ej8_ASCIICode {
     public static void main(String[] args) {
         String texto = JOptionPane.showInputDialog("Introduce una letra para convertirlo en un numero de la tabla ASCII");
         //Este showInputDialog es como un alert de un html. 
