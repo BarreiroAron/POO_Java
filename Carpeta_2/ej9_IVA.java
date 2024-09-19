@@ -2,7 +2,7 @@ package elvideodiseotracosa;
 
 import java.util.Scanner;
 
-public class ejNueveIVA {
+public class ej9_IVA {
 	public static void main(String[] args)  {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Elija un numero por faovr");
