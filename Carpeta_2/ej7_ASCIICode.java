@@ -1,7 +1,7 @@
 
 import javax.swing.JOptionPane;
 
-public class ejSieteASCIICode {
+public class ej7_ASCIICode {
     public static void main(String[] args) {
         String texto = JOptionPane.showInputDialog("Introduce un código de la tabla ASCII");
         //Este showInputDialog es como un alert de un html. 
