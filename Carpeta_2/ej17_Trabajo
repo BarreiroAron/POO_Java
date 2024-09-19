@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ej17_Trabajo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        verificarDia(scanner);
+        scanner.close();
+    }
+
+    public static void verificarDia(Scanner scanner) {
+        System.out.println("Introduce un dia de la semana:");
+        String dia = scanner.nextLine().toLowerCase();
+        switch (dia) {
+            case "lunes":
+            case "martes":
+            case "miercoles":
+            case "jueves":
+            case "viernes":
+                System.out.println(dia + "Es un dia laboral.");
+                break;
+            case "sabado":
+            case "domingo":
+                System.out.println(dia + "No se trabajaaa.");
+                break;
+            default:
+                System.out.println("Te confundiste de dia, maestro.");
+                verificarDia(scanner);
+        }
+    }
+}
