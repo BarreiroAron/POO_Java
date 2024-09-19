@@ -3,7 +3,7 @@ package elvideodiseotracosa;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class ejDiezBUCLEEE {
+public class ej14_Proceso {
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
