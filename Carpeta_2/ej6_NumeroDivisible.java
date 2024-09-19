@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejSeisNumeroDivisible {
+public class ej6_NumeroDivisible {
     public static void main(String[] args) {
 	Scanner numero = new Scanner(System.in);
 	
