@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejDosNumeroMasGrande {
+public class ej2_NumeroMasGrande {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese dos numeros por faovr: ");
