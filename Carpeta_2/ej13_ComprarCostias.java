@@ -2,7 +2,7 @@ package elvideodiseotracosa;
 
 import java.util.Scanner;
 
-public class ejTreceComprarCostias {
+public class ej13_ComprarCostias {
 	public static void main(String[] args) {
 		Scanner r = new Scanner(System.in);
 		System.out.println("Introduzca cuantas cozas compro :v");
