@@ -6,16 +6,16 @@ public class ej38_ {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Ingrese todos los numeros que quiera: ");
 		
-		boolean juanito = true; double menorNumero = 0; 
+		double menorNumero = 0; 
 		double mayorNumero = 0; double suma = 0; 
 		double sumaNegativa = 0; double sumaPositiva = 0;
 		double mayor= 0; double menor = 0; double numero = 0;
 		double ultimoNumero = 0;
 		
         ArrayList<String> lista = new ArrayList<>();
-		while(juanito) {
+		while(true) {
 			numero = scanner.nextDouble();
-			if(numero == -1) juanito = false;
+			if(numero == -1) break;
 			suma = suma + numero;
 			if(numero >= 0)   sumaPositiva =+ numero;
 			if(numero <= 0)   sumaNegativa =+ numero;
