@@ -1,9 +1,7 @@
-package casa;
-
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class ej34 {
+public class ej35_DiasLaborales {
 	enum diasAguila {
 		Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo
 	}
@@ -19,8 +17,8 @@ public class ej34 {
                 escribime.equalsIgnoreCase(diasAguila.Viernes.name()) ) {
                 System.out.println(escribime + " es un día laboral."); }
         else if(
-        	escribime.equalsIgnoreCase(diasAguila.Sabado.name())
+        	escribime.equalsIgnoreCase(diasAguila.Sabado.name()) ||
         	escribime.equalsIgnoreCase(diasAguila.Domingo.name()) ) {
-        	System.out.println(escribime + "No es un dia laboral."); }
+        	System.out.println(escribime + " No es un dia laboral."); }
     }
 }
