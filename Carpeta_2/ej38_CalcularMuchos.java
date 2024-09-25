@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ej38_ {
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ej38_CalcularMuchos {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Ingrese todos los numeros que quiera: ");
@@ -9,8 +12,7 @@ public class ej38_ {
 		double menorNumero = 0; 
 		double mayorNumero = 0; double suma = 0; 
 		double sumaNegativa = 0; double sumaPositiva = 0;
-		double mayor= 0; double menor = 0; double numero = 0;
-		double ultimoNumero = 0;
+		double mayor= -1000000; double menor = ' '; double numero = 1000000;
 		
         ArrayList<String> lista = new ArrayList<>();
 		while(true) {
